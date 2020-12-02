@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+notes = Note.create([{
+    title: "Flatiron times",
+    content: "Hello I am a new student in Flatiron"
+}])
+
+users = User.create([
+    {
+        first_name: "Josue",
+        last_name: "Viramontes",
+        username: "TheBboy26", 
+    }
+ ])
