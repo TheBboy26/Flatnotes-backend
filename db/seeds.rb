@@ -16,6 +16,7 @@ users = User.create([
     {
         first_name: "Josue",
         last_name: "Viramontes",
-        username: "TheBboy26", 
+        username: "TheBboy26" 
     }
  ])
+
