@@ -21,5 +21,10 @@ class NotesController < ApplicationController
         render json: {status: 200, message: "delted bye bye"}
     end 
 
-    
+    def update 
+        @note = Note.find_by(id: params[:id])
+        @note.update(title: params[:title], content: params[:content])
+        render json: @note
+    end 
+
 end 
